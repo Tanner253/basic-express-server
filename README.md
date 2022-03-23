@@ -17,16 +17,15 @@ Once installed, run `npm start`
 
 ## Contributors / Authors
 
-- Jacob Knaack
-- JS 401 d46 class.
+- Tanner Percival
 
 ## Features / Routes
 
-- POST : `/greet/:person`
+- GET : `/person?name=name`
   - Parameters
     - must include a person as a route parameter.
-    - must include a text property on the request body.
+    - must include a text property on the request query.
   - Response
     - status 200, and string body if parameters look good.
-      - body: `TEXT PERSON`
+      - query: name`
     - status 400, if no text is present.
